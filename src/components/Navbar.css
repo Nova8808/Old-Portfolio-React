@@ -1,0 +1,7 @@
+h1{
+    color:red;
+    background-color:black;
+    margin-left: 100px;
+    border: 2px solid;
+    transition: all 0.3 ease-out;
+}
