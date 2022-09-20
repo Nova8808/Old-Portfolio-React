@@ -9,8 +9,11 @@ function App() {
     <>
     <Router>
       <Navbar />
-      <Starrating />
+      <Routes>
+      <Route path='/Starrating' element={<Starrating/>} />
+      </Routes>
       </Router>
+      
       <h2>Portfolio</h2>
     </>
   );
