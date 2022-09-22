@@ -17,6 +17,18 @@ code {
 i {
   font-size: x-large;
 }
+h2{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.magefall-logo{
+  text-align: center;
+}
+.magefall-desc{
+  padding-top: 40px;
+  text-align: center;
+}
 
 button {
   background-color: gray; /* Green */
@@ -41,4 +53,30 @@ button {
 .counterDiv{
   text-align: center;
   padding-top: 30px;
+}
+
+.video-player{
+  justify-content: center;
+  border: green;
+  text-align: center;
+}
+
+.buy-button{
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 4px;
+  width: 40%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 14px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+.buy-button:hover{
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
 }
