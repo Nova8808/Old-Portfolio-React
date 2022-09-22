@@ -32,8 +32,8 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
             <Link to="/" className="navbar-logo">
-                <i className="fa-solid fa-bars" />
-                Steve Serpe
+            <i class="fa-solid fa-sun" />
+                 Steve Serpe
                 </Link>
                 <div className="menu-icon" onClick={menuSwap}>
                 <i className={menuOpen ? "fa-solid fa-bars-staggered" : "fa-solid fa-bars"} />
@@ -45,17 +45,32 @@ function Navbar() {
                     </Link>
                     </li>
                     <li className="nav-item">
-                    <Link to="/Starrating" className='nav-links' onClick={closeMobileMenu}>
-                        Basic React
+                    <Link to="/Gamedev" className='nav-links' onClick={closeMobileMenu}>
+                        Game Dev
+                    </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to="/Dotnet" className='nav-links' onClick={closeMobileMenu}>
+                        .NET
+                    </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to="/Frontend" className='nav-links' onClick={closeMobileMenu}>
+                        Frontend
+                    </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to="/Misc" className='nav-links' onClick={closeMobileMenu}>
+                        Misc
                     </Link>
                     </li>
                     <li>
-                <Link
-                    to='/Starrating'
+                <a
+                    href='https://store.steampowered.com/app/2084260/Magefall/?beta=0'
                     className='nav-links-mobile'
                     onClick={closeMobileMenu}>
-                    Sign Up
-              </Link>
+                    Buy Magefall on Steam
+              </a>
             </li>
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}

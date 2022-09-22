@@ -1,5 +1,6 @@
 .navbar {
-    background: linear-gradient(to bottom, rgb(58, 54, 54) 20%, black 100%);
+    background-color: rgb(104, 98, 98);
+    /* background: linear-gradient(to bottom, rgb(58, 54, 54) 20%, rgb(240, 234, 234) 100%); */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -29,6 +30,7 @@
     display: flex;
     align-items: center;
     background-color: transparent;
+    white-space: nowrap;
   }
   
   .fa-typo3 {
@@ -38,7 +40,7 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -75,8 +77,15 @@
   .fa-bars-staggered{
     background-color: transparent;
   }
-  
-
+  .fa-sun{
+    color: orange;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    height: 100%;
+    transform: scale(1.5);
+    margin-right: 20px;
+  }
   
   .nav-links-mobile {
     display: none;
